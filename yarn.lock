@@ -32,13 +32,6 @@ debug@^3.1.0:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
-  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
-  dependencies:
-    ms "^2.1.1"
-
 es5-ext@^0.10.35, es5-ext@^0.10.50:
   version "0.10.53"
   resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.53.tgz#93c5a3acfdbef275220ad72644ad02ee18368de1"
@@ -84,7 +77,7 @@ ffi-napi@^2.5.0:
     ref-napi "^1.5.2"
     ref-struct-di "^1.1.0"
 
-get-symbol-from-current-process-h@^1.0.1, get-symbol-from-current-process-h@^1.0.2:
+get-symbol-from-current-process-h@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/get-symbol-from-current-process-h/-/get-symbol-from-current-process-h-1.0.2.tgz#510af52eaef873f7028854c3377f47f7bb200265"
   integrity sha512-syloC6fsCt62ELLrr1VKBM1ggOpMdetX9hTrdW77UQdcApPHLmf7CI7OKcN1c9kYuNxKcDe4iJ4FY9sX3aw2xw==
@@ -141,16 +134,6 @@ ref-napi@^1.4.2, ref-napi@^1.5.2:
   integrity sha512-hwyNmWpUkt1bDWDW4aiwCoC+SJfJO69UIdjqssNqdaS0sYJpgqzosGg/rLtk69UoQ8drZdI9yyQefM7eEMM3Gw==
   dependencies:
     debug "^3.1.0"
-    node-addon-api "^2.0.0"
-    node-gyp-build "^4.2.1"
-
-ref-napi@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ref-napi/-/ref-napi-2.0.0.tgz#e824275a0a22045605e58e1af06058d2c0c4b81a"
-  integrity sha512-OTxXox5cUZ28++UP84bChLiRf/omC5Kok/NAZxHrx93zb+1Sb7pZZYtA2mcMa1044b3HdKsUT+rJQRO/CSiUYg==
-  dependencies:
-    debug "^4.1.1"
-    get-symbol-from-current-process-h "^1.0.2"
     node-addon-api "^2.0.0"
     node-gyp-build "^4.2.1"
 
