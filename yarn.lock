@@ -130,26 +130,7 @@ ref-array-napi@^1.2.1:
     debug "2"
     ref-napi "^1.4.2"
 
-ref-napi@^1.4.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/ref-napi/-/ref-napi-1.5.2.tgz#a29f9a0c1aff02f01e023199e4aa8fe7f11f25b9"
-  integrity sha512-hwyNmWpUkt1bDWDW4aiwCoC+SJfJO69UIdjqssNqdaS0sYJpgqzosGg/rLtk69UoQ8drZdI9yyQefM7eEMM3Gw==
-  dependencies:
-    debug "^3.1.0"
-    node-addon-api "^2.0.0"
-    node-gyp-build "^4.2.1"
-
-ref-napi@^2.0.1:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/ref-napi/-/ref-napi-2.1.2.tgz#5986069d7b0ea83e1fef48239a2bd75318ce341b"
-  integrity sha512-aFl+vrIuLWUXMUTQGAwGAuSNLX3Ub5W3iVP8b7KyFFZUdn4+i4U1TXXTop0kCTUfGNu8glBGVz4lowkwMcPVVA==
-  dependencies:
-    debug "^4.1.1"
-    get-symbol-from-current-process-h "^1.0.2"
-    node-addon-api "^2.0.0"
-    node-gyp-build "^4.2.1"
-
-ref-napi@^3.0.1:
+ref-napi@^1.4.2, ref-napi@^2.0.1, ref-napi@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/ref-napi/-/ref-napi-3.0.1.tgz#442c0b266c14620a3c3b5a1d9c8d8d997f33a86d"
   integrity sha512-W3rcb0E+tlO9u9ySFnX5vifInwwPGToOfFgTZUHJBNiOBsW0NNvgHz2zJN7ctABo/2yIlgdPQUvuqqfORIF4LA==
