@@ -1,6 +1,6 @@
 {
   "name": "libclang",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "libclang.js",
   "description": "Bindings to libclang",
   "keywords": [
@@ -13,7 +13,10 @@
   "dependencies": {
     "ffi-napi": "^4.0.3",
     "ref-array-di": "^1.2.2",
-    "ref-napi": "^3.0.3",
+    "ref-napi": "git+https://github.com/citizenfx/ref-napi#v3.0.3p1",
     "ref-struct-di": "^1.1.1"
+  },
+  "resolutions": {
+    "ref-napi": "git+https://github.com/citizenfx/ref-napi#v3.0.3p1"
   }
 }
