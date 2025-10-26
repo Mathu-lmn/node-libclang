@@ -11,9 +11,9 @@
   "author": "Timothy J Fontaine <tjfontaine@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ffi-napi": "^4.0.3",
-    "ref-array-di": "^1.2.2",
-    "ref-napi": "git+https://github.com/citizenfx/ref-napi#v3.0.4",
-    "ref-struct-di": "^1.1.1"
+    "@napi-ffi/ffi-napi": "^4.0.3",
+    "@napi-ffi/ref-array-di": "^1.2.2",
+    "@napi-ffi/ref-napi": "^3.0.5",
+    "@napi-ffi/ref-struct-di": "^1.1.1"
   }
 }
